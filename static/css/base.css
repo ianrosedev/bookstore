@@ -6,3 +6,9 @@ h1 {
   height: 300px;
   width: auto;
 }
+
+.required {
+  color: red;
+  display: block;
+  margin: -10px 0 20px 0;
+}
