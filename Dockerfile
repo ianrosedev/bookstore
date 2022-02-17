@@ -10,7 +10,8 @@ WORKDIR /code
 
 # Install dependencies
 COPY requirements.txt /code/
-RUN pip3 install -r requirements.txt
+RUN pip3 install --upgrade pip &&\
+    pip3 install -r requirements.txt
 
 # Copy Project
 COPY . /code/
